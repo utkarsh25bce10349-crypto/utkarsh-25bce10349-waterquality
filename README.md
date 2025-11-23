@@ -29,5 +29,4 @@ Ensure your virtual environment is activated.
 Navigate to the water_quality_dashboard directory in your terminal.
 Run the Dash application:
 python pp.py
-Open your web browser and go to: http://127.0.0.1:8050/
 The application should now be running locally. The File Monitor tab shows which data files have been loaded. If you add new compatible files to the data/ directory while the app is running, they should be detected automatically (refresh might take a few seconds).
