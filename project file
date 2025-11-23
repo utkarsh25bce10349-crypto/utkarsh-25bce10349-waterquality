@@ -1,1 +1,15 @@
-t
+
+
+
+Water Quality Dashboard
+A web application using Dash and Plotly + Bootstrap, built to:
+
+* Visualize time-series water quality data (select lake, index, date)
+* Browse and process raster images (apply thresholding, view original vs processed)
+* Generate heatmaps from tabular data with an option to save
+* Automatically monior data files, updating options when new data is added
+* Use a backgrund file watcher + caching for real-time responsiveness
+
+Main tech stack:
+Pandas, NumPy (data), Pillow/Matplotlib (images), custom data loader module.
+
